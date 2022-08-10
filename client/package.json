@@ -29,7 +29,8 @@
     "scripts": {
         "start": "node scripts/start.js",
         "build": "node scripts/build.js",
-        "test": "node scripts/test.js"
+        "test": "node scripts/test.js",
+        "refreshVSToken": "vsts-npm-auth -config .npmrc"
     },
     "eslintConfig": {
         "extends": "react-app"
